@@ -1,17 +1,19 @@
-# Webpack Bundle Tracker [![Join the chat at https://gitter.im/owais/webpack-bundle-tracker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/owais/webpack-bundle-tracker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Webpack Bundle Tracker
 
-Spits out some stats about webpack compilation process to a file.
+Remove old bundles and spits out some stats about webpack compilation process to a file.
+
+I added my desired feature of automatically removing old bundles to [webpack-bundle-tracker](https://github.com/owais/webpack-bundle-tracker) version 0.4.3
 
 <br>
 
 ## Install
 
 ```bash
-npm install --save-dev webpack-bundle-tracker
+npm install --save-dev @yifanai/webpack-bundle-tracker
 ```
-
+OR
 ```bash
-yarn add --dev webpack-bundle-tracker
+yarn add --dev @yifanai/webpack-bundle-tracker
 ```
 
 <br>
