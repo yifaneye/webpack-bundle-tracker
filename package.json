@@ -1,8 +1,8 @@
 {
   "name": "@yifanai/webpack-bundle-tracker",
   "private": false,
-  "version": "0.0.1",
-  "description": "Remove old bundles and spits out some stats about webpack compilation process to a file",
+  "version": "0.0.2",
+  "description": "Remove old bundles and spit out some stats about webpack compilation process to a file",
   "keywords": [
     "bundle",
     "files",

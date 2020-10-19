@@ -1,6 +1,6 @@
 # Webpack Bundle Tracker
 
-Remove old bundles and spits out some stats about webpack compilation process to a file.
+Remove old bundles and spit out some stats about webpack compilation process to a file.
 
 I added my desired feature of automatically removing old bundles to [webpack-bundle-tracker](https://github.com/owais/webpack-bundle-tracker) version 0.4.3
 
