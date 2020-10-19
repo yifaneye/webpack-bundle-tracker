@@ -1,6 +1,6 @@
 {
-  "name": "webpack-bundle-tracker",
-  "version": "0.4.3",
+  "name": "webpack-bundle-renewer",
+  "version": "0.0.1",
   "description": "Spits out some stats about webpack compilation process to a file",
   "keywords": [
     "bundle",
@@ -9,11 +9,11 @@
     "stats",
     "webpack"
   ],
-  "homepage": "https://github.com/owais/webpack-bundle-tracker",
-  "bugs": "https://github.com/owais/webpack-bundle-tracker/issues",
-  "repository": "https://github.com/owais/webpack-bundle-tracker.git",
+  "homepage": "https://github.com/yifaneye/webpack-bundle-tracker",
+  "bugs": "https://github.com/yifaneye/webpack-bundle-tracker/issues",
+  "repository": "https://github.com/yifaneye/webpack-bundle-tracker.git",
   "license": "MIT",
-  "author": "Owais Lone",
+  "author": "Yifan Ai",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -26,10 +26,13 @@
     "travis": "yarn pretest && jest --runInBand --coverage --env node && codecov && yarn posttest"
   },
   "jest": {
-    "setupFilesAfterEnv": ["jest-extended"]
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
+    "fs-extra": "^9.0.1",
     "mkdirp": "^0.5.1",
     "strip-ansi": "^5.2.0"
   },
